@@ -1,4 +1,4 @@
-# FakeProdutoAPI - README Aprimorado
+# FakeProdutoAPI
 
 Simula o comportamento de uma API responsável por gerenciar dados de produtos.
 
