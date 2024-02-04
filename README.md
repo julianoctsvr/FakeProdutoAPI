@@ -22,7 +22,7 @@ Observações:
 
 ### Usando Docker
 
-A API também está disponível no Dockerhub em `julianoctsvr/fakeprodutoapi`, podendo tanto ser executada com `docker run -p 3000:3000 julianoctsvr/fakeprodutoapi` ou mesmo através do `docker-compose.yml` encontrado nesse repositório.
+A API também está disponível no Dockerhub em `julianoctsvr/fakeprodutoapi`, podendo tanto ser executada com `docker run -p 3000:3000 julianoctsvr/fakeprodutoapi` ou mesmo através do `docker-compose.yml` encontrado nesse repositório. Neste cenário, basta subir o container e acessar `http://localhost:3000/swagger`.
 
 ## IMPORTANTE
 
