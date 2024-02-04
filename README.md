@@ -8,6 +8,8 @@ Além disso, a API simula um comportamento em que, de tempos em tempos, alguns p
 
 ## Instruções de Execução
 
+### Usando binários
+
 - Clone ou faça o download do repositório.
 - Execute o arquivo binário correspondente ao seu sistema operacional.
 - Na mesma pasta do arquivo, será criado um arquivo chamado "produto.db", responsável por armazenar os dados dos produtos da API.
@@ -16,6 +18,11 @@ Além disso, a API simula um comportamento em que, de tempos em tempos, alguns p
 Observações:
 - Ao baixar o executável, verifique as propriedades do arquivo para garantir permissão de execução. Caso não tenha permissão, utilize `chmod +x nome_do_arquivo` para MacOS e Linux.
 - O arquivo `produto.db` pode ser deletado para assegurar um banco de dados "limpo" entre as execuções da API.
+
+
+### Usando Docker
+
+A API também está disponível no Dockerhub em `julianoctsvr/fakeprodutoapi`, podendo tanto ser executada com `docker run -p 3000:3000 julianoctsvr/fakeprodutoapi` ou mesmo através do `docker-compose.yml` encontrado nesse repositório.
 
 ## IMPORTANTE
 
